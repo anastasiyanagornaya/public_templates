@@ -1,0 +1,288 @@
+/************ general styles *************/
+body {
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 15px;
+	padding: 0px;
+	margin: 0px;
+}
+
+div, p, input, button, form {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.clear {
+	clear: both;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+}
+ 
+.container {
+	width: 940px;
+	margin: 0px auto;
+}
+
+.decoration:after {
+	content:'';
+	display: block;
+	background: #4e8598;
+	width: 72px;
+	height: 3px;
+	margin-top: 10px;
+}
+
+/************************* firstscreen section *****************************/
+.firstscreen {
+	background: #4e8598;
+	margin-bottom: 80px;
+	min-height: 100vh;
+	position: relative;
+	padding-top: 52px;
+}
+
+.firstscreen__logo {
+	display: block;
+	text-align: center;
+	margin: 0px auto 272px auto;
+	width: 122px;
+}
+
+.firstscreen__declaration {
+	font-size: 27px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0px; /*Это правильно? */
+	padding-bottom: 26px;
+	line-height: 42.5px; 
+}
+
+.firstscreen__connection-button {
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 1px solid #fff;
+	border-radius: 30px;
+	display: block;
+	padding: 22px 36px;
+	width: 147px;
+	margin: 0 auto;
+}
+
+.firstscreen__connection-button:hover {
+	color: #2f383b;
+	background: #fff;
+	border: 1px solid #4e8598;
+}
+
+.firstscreen__arrow {
+	position: absolute;
+	bottom: 57px;
+	top: auto;
+  	left: auto;
+  	right: auto;
+    transform: translate(459px, 0px); 
+}
+
+/******************************* about-job_section ***************************************/
+
+.about-job_section {
+	margin-bottom: 160px;
+}
+
+.about-job_section__description-title {
+	font-size: 26px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 88px;
+	margin-top: 0px;
+	color: #2f383b;
+}
+
+.about-job_section__description-elements {
+	display: flex;
+    justify-content: center;
+}
+
+.about-job_section__description-mission {
+	width: 407px; 
+	margin-right: 95px;
+}
+
+.about-job_section__mission-title, .about-job_section__deserts-title {
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #2f383b;
+}
+
+.about-job_section__description-text {
+	letter-spacing: 0.5px;
+	line-height: 25px;
+	color: #2f383b;
+}
+
+.about-job_section__skills {
+	padding: 0;
+	margin: 0;
+}
+
+.about-job_section__skills-item{
+	display: block;
+	padding: 10px 0 10px 60px;
+	margin-bottom: 29px;
+}
+
+.skills-icon-bug {
+	background: url(../img/bug.png) no-repeat left center; 
+}
+
+.skills-icon-bell {
+	background: url(../img/bell.png) no-repeat left center;
+}
+
+.skills-icon-storm {
+	background: url(../img/storm.png) no-repeat left center;
+	padding-left: 50px; 
+    margin-left: 10px;
+}
+
+.skills-icon-camera {
+	background: url(../img/camera.png) no-repeat left center;
+}
+
+.about-job_section__skills-heading {
+	display: inline;
+	font-size: 16px;
+    font-weight: bold;
+    color: #4e8598;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.about-job_section__skills-intro {
+	display: inline;
+	opacity: 0.5;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+/****************************** advantages_section ****************************/
+
+.advantages_section {
+	margin-bottom: 75px;
+}
+
+.advantages_section__title-first {
+	font-size: 26px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	color: #2f383b;
+	margin-bottom: 70px;
+}
+
+.advantages_section__list {
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.advantages_section__list-item {
+	font-size: 16px;
+	font-weight: bold;
+	color: #2f383b;
+	width: 206px;
+	text-align: center;
+	color: #2f383b;
+}
+
+.advantages_section__note {
+	text-align: center;
+	color: #2f383b;
+}
+
+.advantages_section__title-second {
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 19px; 
+	text-transform: uppercase;
+}
+
+.advantages_section__remark {
+	font-size: 14px;
+	line-height: 1.5;
+	margin-bottom: 30px;
+}
+
+.advantages_section__digit-mod {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.advantages_section__digit {
+	border: 1px solid #2f383b;
+	border-radius: 50%;
+	font-size: 30px;
+	height: 75px; 
+	width: 75px; 
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.advantages_section__digit:hover {
+	color: #fff;
+	background: #2f383b
+}
+.advantages_section__link { 
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 1px solid #2f383b;
+	border-radius: 30px;
+	display: block;
+	padding: 22px 36px;
+	width: 147px;
+	margin: 0 auto;
+	color: #2f383b;
+}
+
+.advantages_section__link:hover {
+	color: #fff;
+	background: #2f383b
+}
+
+/********************************* footer *******************************/
+
+.footer {
+	background-color: #2f383b;
+	padding: 51px 0;
+}
+
+.footer__item {
+	font-size: 13px;
+	color: #b5b7b8;
+}
+
+.footer-flex {
+	display: flex;
+    justify-content: space-between;
+}
+
+.privacy-policy-link {
+	color: #f0f1f1;	
+	border-bottom: 1px dotted #f0f1f1;
+	line-height: 20px; 
+	text-decoration: none;
+}
